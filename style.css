@@ -1,0 +1,72 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.3;
+    color: #333;
+}
+
+main {
+    width: 816px; /* Approx. 8.5 inches */
+    min-height: 1056px; /* Approx. 11 inches */
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* To give it a lifted appearance */
+    border: 1px solid #ddd;
+}
+
+header {
+    color: white;
+    background-color: cadetblue;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+header, p {
+    margin: 0px;
+}
+
+div {
+    position: absolute;
+    text-align: right;
+    left: 1350px;
+    bottom: 890px;
+}
+
+article {
+    display: flex;
+
+}
+
+section:first-child {
+    margin-right: 50px;
+    border-right: 1.6px solid black;
+    padding-right: 20px;
+}
+
+section:last-child {
+    margin-left: -15px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+li {
+    font-size: 16px;
+}
+
+hr {
+    color: black;
+}
+
