@@ -19,8 +19,8 @@ header {
     color: white;
     background-color: cadetblue;
     letter-spacing: 1px;
-    text-align: center;
-    padding: 5px 0px;
+    text-align: left;
+    padding: 5px 7px;
 }
 
 header, p {
