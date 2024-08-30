@@ -17,24 +17,33 @@ main {
 
 header {
     color: white;
-    background-color: #34495e;
+    background-color:#2e86c1;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     letter-spacing: 1px;
     padding: 5px 7px;
 }
 
-header h1 {
-    text-align: left;
-}
-
-header, p {
-    margin: 0px;
-}
-
-div {
-    position: absolute;
+.header-right {
     text-align: right;
-    left: 1350px;
-    bottom: 890px;
+}
+
+.header-right a{
+    color: blue;
+}
+
+.header-right a:visited {
+    color: purple;
+}
+
+.header-right a:hover {
+    color: red;
+}
+
+.header-right a:active {
+    color: orange;
 }
 
 article {
@@ -58,10 +67,12 @@ h1 {
 }
 
 p {
+    margin: 0px;
     font-size: 16px;
 }
 
 h3 {
+    color:#2e86c1 ;
     font-size: 20px;
 }
 
@@ -73,3 +84,8 @@ hr {
     color: black;
 }
 
+.icon {
+    vertical-align: middle;
+    margin-right: 4px;
+    padding-bottom: 3px;
+}
